@@ -1,0 +1,49 @@
+table,thead,tbody {
+    border: 1px solid;
+    height: 70px;
+    text-align: centre;
+    padding: 15px;
+}
+input {
+    border-color: #eae1e7;
+    background-color: rgb(177, 227, 208);
+}
+button {
+    border-color: #f6f0f4;
+    background-color: #1282f2;
+    color: rgb(247, 241, 243);
+}
+table {
+    border-color: blueviolet;
+    
+}
+thead {
+    border-color: brown;
+    /* border-bottom: 1px solid #1c9025; */
+    background-color: #54cfc7;
+    color: #0331c9;
+    font-size: large;
+    
+}
+
+
+tbody tr:hover {
+    background-color: #f76b8a;
+}
+tbody td {
+    border-bottom: 2px solid #8ee295;
+}
+
+
+
+
+tr:nth-child(even) {background-color:rgb(216, 196, 241);}
+
+
+div.container {
+    margin: 4px, 4px;
+    padding: 4px;
+    width: 70%;
+    overflow-x: auto;
+    white-space: nowrap;
+}

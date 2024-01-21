@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="./main.js"></script>
+    <title>Get API Data and print in tabular format</title>
+    
+</head>
+<body>
+    <input type="url" id="enteredUrl" placeholder="enter or search url" /> 
+    <button type="button" onclick="readUrlFromUser()">Submit</button>
+    <p id="print_array"></p>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>UserName</th>
+                <th>Email</th>
+                </tr>  
+            </thead>
+            <tbody id="table_body">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

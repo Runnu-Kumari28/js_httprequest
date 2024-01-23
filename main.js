@@ -32,7 +32,7 @@ function printTable(data) {
         username: "rr212",
         email: "rr@gmail.com"
     })
-    console.log(new_data);
+    console.table(new_data);
     for(let i=0; i<new_data[i].id; i++) 
     {
         console.log(`number of time: ${i}`);
@@ -42,6 +42,10 @@ function printTable(data) {
                 <td>${data[i].name}</td>
                 <td>${data[i].username}</td>
                 <td>${data[i].email}</td>
+                <td>${JSON.stringify(data[i].address)}</td>
+                <td>${data[i].phone}</td>
+                <td>${data[i].website}</td>
+                <td>${JSON.stringify(data[i].company)}</td>
             </tr>
         `
     }
